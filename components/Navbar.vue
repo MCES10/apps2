@@ -22,8 +22,12 @@
           <nuxt-link to="./signin">Account</nuxt-link>
         </li>
         <li>
+          <nuxt-link to="./support">Support</nuxt-link>
+        </li>
+        <li>
           <nuxt-link to="./signup">About</nuxt-link>
         </li>
+        
       </ul>
     </div>
   </nav>
