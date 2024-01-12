@@ -22,12 +22,8 @@
           <nuxt-link to="./signin">Account</nuxt-link>
         </li>
         <li>
-          <nuxt-link to="./support">Support</nuxt-link>
-        </li>
-        <li>
           <nuxt-link to="./signup">About</nuxt-link>
         </li>
-        
       </ul>
     </div>
   </nav>
@@ -62,10 +58,15 @@ export default {
 <style scoped>
 /* Add your styling here */
 nav {
-  background-color: #000000;
+  background-color: rgba(255, 255, 255, 0.64);
+  border-radius: 16px;
+  box-shadow: 0 14px 50px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   padding: 1rem;
   border-radius: 10px; /* Add rounded corners */
 }
+
 
 .navbar-container {
   display: flex;
@@ -129,14 +130,20 @@ a {
   text-decoration: none;
   color: white;
   font-weight: bold;
+  width: 5rem;
+  height: 5rem;
 }
 a:hover {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  
   font-weight: bold;
-  background-color: blue;
-  width: 15px;
-  height: 5px;
+  background-color: rgba(255, 255, 255, 0.64);
+  border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
+  width: 5rem;
+  height: 5rem;
   border-radius: 5px;
 }
 
@@ -153,7 +160,11 @@ a:hover {
     top: 60px;
     left: 0;
     width: 100%;
-    background-color: #000000;
+    background-color: rgba(255, 255, 255, 0.64);
+    border-radius: 16px;
+    box-shadow: 0 14px 50px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     z-index: 1;
   }
 
