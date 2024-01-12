@@ -157,7 +157,7 @@ backdrop-filter: blur(20px);
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 60px;
+    top: 70px;
     left: 0;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.64);
